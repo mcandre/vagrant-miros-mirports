@@ -13,7 +13,7 @@
 ```console
 $ cd i386/test
 $ vagrant up
-$ vagrant ssh -c "cd /usr/ports && sudo cvs update && cd /usr/ports/net/curl && sudo mmake install clean && curl --version"
+$ vagrant ssh -c "cd /usr/ports && sudo cvs -d _anoncvs@anoncvs.mirbsd.org:/cvs update && cd /usr/ports/net/curl && sudo mmake install clean && curl --version"
 ...
 ```
 
